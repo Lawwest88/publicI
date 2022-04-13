@@ -15,3 +15,7 @@ class dashboard(models.Model):
     # maps
     getmap = models.URLField(max_length=200)
     pinned_map = models.URLField(max_length=200)
+
+    # image 
+    image = models.ImageField(default=None)
+
